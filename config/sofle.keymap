@@ -37,7 +37,7 @@
 
         tap-ms = <30>;
     };
-
+    
     keymap {
         compatible = "zmk,keymap";
 
@@ -77,6 +77,18 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+        
+        extra1 {
+            status = "reserved";
+        };
+        
+        extra2 {
+            status = "reserved";
+        };
+        
+        extra3 {
+            status = "reserved";
         };
     };
 };
